@@ -1,7 +1,5 @@
-🔍 Local AI Code Explainer
-Local AI Code Explainer is a lightweight and privacy-friendly web application built with Streamlit, designed to help users understand Python code by generating natural language explanations. It leverages a locally hosted GPT-Neo language model (EleutherAI/gpt-neo-125M) from Hugging Face Transformers, eliminating the need for internet access or cloud-based APIs.
-
-Whether you're a beginner learning Python, an educator explaining code in simpler terms, or a developer seeking quick comprehension of unfamiliar scripts, this tool provides intuitive, plain-English insights directly from your machine.
+🔍 AI Code Explainer
+AI Code Explainer is a lightweight and privacy-friendly web application built with Streamlit, designed to help users understand Python code by generating natural language explanations. It leverages a locally hosted GPT-Neo language model (EleutherAI/gpt-neo-125M) from Hugging Face Transformers, eliminating the need for internet access or cloud-based APIs.
 
 ✨ Key Features
 💻 Offline-First Architecture
@@ -21,42 +19,22 @@ Great for classrooms, tutorials, and self-paced learning environments where unde
 
 🛠 Requirements
 To run this application locally, make sure you have the following:
-
 ✅ Python 3.8 or higher
-
 ✅ Streamlit
-
 ✅ Hugging Face Transformers
-
 ✅ PyTorch (required for running the model)
 
 🚀 How It Works
-Paste your Python code into the input field.
-
-Click the "Explain Code" button.
-
-The app formats a prompt and sends it to the local GPT-Neo model.
-
-The model responds with a concise, easy-to-understand explanation.
-
-You get a natural language breakdown of what your code does.
+1-Paste your Python code into the input field.
+2-Click the "Explain Code" button.
+3-The app formats a prompt and sends it to the local GPT-Neo model.
+4-The model responds with a concise, easy-to-understand explanation.
+5-You get a natural language breakdown of what your code does.
 
 💡 Why Local?
-No cost associated with cloud APIs (like OpenAI)
-
-No risk of leaking sensitive code online
-
-Fully functional in offline environments (e.g., secure labs or classrooms without internet)
+-No cost associated with cloud APIs (like OpenAI)
+-No risk of leaking sensitive code online
+-Fully functional in offline environments (e.g., secure labs or classrooms without internet)
 
 🔐 Privacy & Security
 This app does not send your code to any remote server. All computation is performed on your local device, offering total control and peace of mind regarding code confidentiality.
-
-Let me know if you want a version tailored for:
-
-💼 Resume project description
-
-🧑‍🏫 Teaching tools or demo day
-
-🧑‍💻 GitHub README.md template
-
-🎤 Pitch deck or presentation slide
